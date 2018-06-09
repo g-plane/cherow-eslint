@@ -59,9 +59,6 @@ const s = `value: ${1 + 2}`
 - The tokenizer cannot detect an identifier as `JSXIdentifier` in JSX.
 That is, the `JSXIdentifier` token will be treated as normal `Identifier`.
 
-- When tokenzing JSX, `</` will be treated as one token, while espree will
-treat it as two tokens (`<` and `/`).
-
 ## Reporting Bugs
 
 You should provide these information for reproduction:
