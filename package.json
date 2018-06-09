@@ -1,0 +1,35 @@
+{
+  "name": "cherow-eslint",
+  "description": "Cherow parser for ESLint.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Pig Fang",
+    "email": "g-plane@hotmail.com",
+    "url": "https://gplane.win/"
+  },
+  "repository": "https://github.com/g-plane/cherow-eslint",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-parser",
+    "javascript",
+    "esnext",
+    "parser",
+    "cherow"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint -f=beauty lib/"
+  },
+  "dependencies": {
+    "cherow": "^1.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-gplane": "^3.0.0-beta.1",
+    "eslint-formatter-beauty": "^3.0.0-beta.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
