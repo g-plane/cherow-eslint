@@ -22,16 +22,15 @@
     "lint": "eslint -f=beauty lib/ test/",
     "test": "ava"
   },
-  "dependencies": {
-    "cherow": "^1.6.6"
-  },
   "devDependencies": {
     "ava": "^1.0.0-beta.5.1",
+    "cherow": "^1.6.6",
     "eslint": "^4.19.1",
     "eslint-config-gplane": "^3.0.0-beta.1",
     "eslint-formatter-beauty": "^3.0.0-beta.1"
   },
   "peerDependencies": {
+    "cherow": "^1.6.6",
     "eslint": "^4.19.1"
   }
 }
