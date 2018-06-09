@@ -7,7 +7,7 @@
     "email": "g-plane@hotmail.com",
     "url": "https://gplane.win/"
   },
-  "repository": "https://github.com/g-plane/cherow-eslint",
+  "repository": "https://github.com/cherow/cherow-eslint",
   "license": "MIT",
   "keywords": [
     "eslint",
