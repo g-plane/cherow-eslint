@@ -1,5 +1,9 @@
 # cherow-eslint
 
+[![Travis](https://img.shields.io/travis/g-plane/cherow-eslint.svg?style=flat-square)](travis-ci.org/g-plane/cherow-eslint)
+[![NPM Version](https://img.shields.io/npm/v/cherow-eslint.svg?style=flat-square)](npmjs.com/package/cherow-eslint)
+[![NPM Downloads](https://img.shields.io/npm/dm/cherow-eslint.svg?style=flat-square)](npmjs.com/package/cherow-eslint)
+
 [Cherow](https://github.com/cherow/cherow) parser for ESLint.
 
 **This package is still experimental.**
