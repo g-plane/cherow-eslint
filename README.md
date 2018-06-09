@@ -40,6 +40,21 @@ you should update your configuration file like this:
 }
 ```
 
+## Known Issues
+
+Cherow doesn't provide official tokenizer,
+so there are some problems with tokenizing:
+
+- An error will be thrown when parsing string template with expressions,
+like this:
+
+```javascript
+const s = `value: ${1 + 2}`
+```
+
+- The tokenizer cannot detect an identifier as `JSXIdentifier` in JSX.
+That is, the `JSXIdentifier` token will be treat as normal `Identifier`.
+
 ## Reporting Bugs
 
 You should provide these information for reproduction:
