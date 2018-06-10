@@ -22,3 +22,14 @@ test('regular expression', t => {
   )
   t.true(tokens.some(token => token.type === 'RegularExpression'))
 })
+
+test('JSX closing token', t => {
+  const { tokens } = parser.parse(
+    '<div></div>',
+    { ecmaFeatures: { jsx: true } }
+  )
+  t.is(tokens[3].type, 'Punctuator')
+  t.is(tokens[3].value, '<')
+  t.is(tokens[4].type, 'Punctuator')
+  t.is(tokens[4].value, '/')
+})
