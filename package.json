@@ -1,7 +1,7 @@
 {
   "name": "cherow-eslint",
   "description": "Cherow parser for ESLint.",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": {
     "name": "Pig Fang",
     "email": "g-plane@hotmail.com",
